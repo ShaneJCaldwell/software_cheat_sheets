@@ -11,9 +11,12 @@ echo return output
 which return location of command (command) 
 chmod modify characteristics, eg permissions
 ps list processes -u user info
-tar -xvf extract .tar archive
-tar -xvfz extract .tar.gz zipped archive
 
+
+TERMINAL EXPERIENCE
+
+PS1 = " $ "  change prompt string to contents of quotes
+clear clean out terminal
 
 MODIFIERS
 
@@ -21,4 +24,6 @@ MODIFIERS
 
 UTILITIES
 
-tar
+tar -xvf extract .tar archive
+tar -xvfz extract .tar.gz zipped archive
+kill ####  stop running job with number ####
