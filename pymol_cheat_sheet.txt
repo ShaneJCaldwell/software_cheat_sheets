@@ -1,0 +1,24 @@
+UNIX COMMANDS
+
+cd  move directory . here .. one level up
+mv  move file (rename file)
+cp  copy file (old, new)
+pwd  print working directory (where am I)
+mkdir  make directory
+ls  list files -a all files, incl hidden -l long, includes permissions
+rm  remove (delete) file -f force
+echo return output
+which return location of command (command) 
+chmod modify characteristics, eg permissions
+ps list processes -u user info
+tar -xvf extract .tar archive
+tar -xvfz extract .tar.gz zipped archive
+
+
+MODIFIERS
+
+& runs command in background
+
+UTILITIES
+
+tar
