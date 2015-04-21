@@ -1,9 +1,24 @@
+TERMINAL EXPERIENCE
+
+PS1 = " $ "  change prompt string to contents of quotes
+clear clean out terminal
+
+CONTROL COMMANDS
+
+CTRL + Z = Pause currently running process
+bg runs paused process in background
+fg brings background process to foreground
+CTRL + C = Kill currently running process
+jobs lists currently running jobs
+kill [PID] kills the job with listed PID
+
+
 UNIX COMMANDS
 
+pwd  print working directory (where am I)
 cd  move directory . here .. one level up
 mv  move file (rename file)
-cp  copy file (old, new)
-pwd  print working directory (where am I)
+cp  copy file (old, new) -r recursive - so all files within a directory too
 mkdir  make directory
 ls  list files -a all files, incl hidden -l long, includes permissions
 rm  remove (delete) file -f force
@@ -13,17 +28,28 @@ chmod modify characteristics, eg permissions
 ps list processes -u user info
 
 
-TERMINAL EXPERIENCE
+WRITING AND READING TO TEXT FILES
 
-PS1 = " $ "  change prompt string to contents of quotes
-clear clean out terminal
+touch $$$$.%%% create file with given filename
 
-MODIFIERS
+>> write out to text file with this name
+
+<< read in from text file with this name
+
+|
+
+
+MODIFIERS AND SYMBOLS
 
 & runs command in background
+!$ whatever follows last space on previous line
+.  current directory
+.. parent directory
 
 UTILITIES
 
+man display the manual for a given command
+time report time it takes to run a command
 tar -xvf extract .tar archive
 tar -xvfz extract .tar.gz zipped archive
 kill ####  stop running job with number ####
